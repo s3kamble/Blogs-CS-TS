@@ -1,7 +1,7 @@
 # <i><u>Travel-O-(B)log</u></i>
 - This front-end-application renders list of Travel-Blogs to read from.
 - Click on any one from the list to read the complete Blog.
-- [View App]()
+- [View App](https://61521596f581d80fa2e687dd--romantic-albattani-8ff205.netlify.app/)
 
 <br>
 

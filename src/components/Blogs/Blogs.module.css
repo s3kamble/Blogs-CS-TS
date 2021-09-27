@@ -1,0 +1,20 @@
+.blogTitle{
+    font-family: cursive;
+    color:black;
+    font-size: 2rem;
+    margin:1%
+}
+
+.links{
+    text-decoration: none;
+    height:20rem;
+    width:20rem;
+    border:2px solid greenyellow;
+    margin:2rem;
+}
+
+.images{
+    height:15rem;
+    width:20rem
+}
+

@@ -1,0 +1,5 @@
+export const STACK_API_KEY="Your contentstack stack api key"
+export const DELIVERY_TOKEN="Your contentstack stack delivery token"
+export const ENVIRONMENT="Contentstack environment "
+export const FOOTER_ENTRY="Contentstack footer entry uid"
+export const HEADER_ENTRY="Contentstack header entry uid"

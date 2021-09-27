@@ -1,0 +1,183 @@
+.blogInfo{
+    height:fit-content;
+    padding:2%;
+    width:50%;
+    margin:auto;
+    margin-top: 1rem;
+    border:1px solid yellowgreen;
+    display:flex;
+    justify-content: space-between;
+    
+
+}
+
+.blogImage{
+    height:20rem;
+    width:35rem;
+    margin-left: 2%;
+}
+
+.blogAbout{
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.blogHeading{
+    color:yellowgreen;
+    font-size: 2rem;
+    font-family: cursive;
+
+}
+
+.blogAuthor{
+    color:indianred;
+    font-size: 1.2rem;
+    font-family:cursive;
+
+}
+
+.blogContent{
+    height:fit-content;
+    border:1px solid yellowgreen;
+    margin:2%;
+    padding:2%;
+    font-family:cursive;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+@media(max-width:1775px){
+    .blogInfo{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .blogImage{
+        margin-left: 17%;
+
+    }
+}
+
+@media(max-width:1550px){
+
+    .blogImage{
+        margin-left:5%;
+        height:20rem;
+        width:30rem;
+    }
+}
+
+
+@media(max-width:1350px){
+    .blogImage{
+        margin-left: 3%;
+    }
+
+}
+
+@media(max-width:1210px){
+    .blogImage{
+        margin-left: 2%;
+        height:20rem;
+        width:30rem;
+    }
+}
+
+@media(max-width:1050px){
+    .blogImage{
+        height:17.5rem;
+        width:20rem;
+    }
+}
+
+
+@media(max-width:700px){
+    .blogInfo{
+        margin-top: 3rem;
+    }
+    .blogImage{
+        height:15rem;
+        width:18rem;
+    }
+    .blogContent{
+        padding:4%;
+    }
+
+}
+
+@media(max-width:550px){
+    .blogInfo{
+        margin-top: 5rem;
+    }
+    .blogImage{
+        margin-left: 0;
+        height:12rem;
+        width:16rem;
+    }
+    .blogContent{
+        padding:6%;
+    }
+
+}
+
+@media(max-width:475px){
+    .blogInfo{
+        margin-top: 5rem;
+    }
+    .blogImage{
+        width:12rem;
+    }
+    .blogContent{
+        padding:6%;
+    }
+
+}
+
+/* Related links styling */
+.asideInfo{
+    height:fit-content;
+    padding:1%;
+    width:50%;
+    /* margin-left: 25rem;
+    margin-bottom:2%; */
+    margin:auto;
+    border:1px solid yellowgreen;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.asideLinks{
+    color:yellowgreen;
+    margin:0
+}
+
+.asideTitle{
+    color:indianred;
+    text-decoration:none;
+    font-family:cursive;
+    font-size: 1.5rem;
+}
+
+@media(max-width:1775px){
+    .asideInfo{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .asideImage{
+        width:fit-content;
+
+    }
+}
+
+
+
+
+
+
+
+

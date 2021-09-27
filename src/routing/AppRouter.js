@@ -14,6 +14,12 @@ function Approuter(){
           <Route exact path="/blog/:id">
               <Blog />
           </Route>
+          <Route exact path="/contact">
+              Contact us
+          </Route>
+          <Route exact path="/feedback">
+             Feedback form
+          </Route>
       </Switch>
       </>
   )

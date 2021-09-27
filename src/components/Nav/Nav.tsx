@@ -1,10 +1,9 @@
 import  React,{useState,useEffect} from "react";
 import contentstack from "contentstack"
-import{STACK_API_KEY,DELIVERY_TOKEN,ENVIRONMENT,HEADER_ENTRY} from "../../contentstackConfig";
 import styles from "../Nav/Nav.module.css"
 import { Link } from "react-router-dom";
 
-const Stack = contentstack.Stack(STACK_API_KEY,DELIVERY_TOKEN,ENVIRONMENT);
+const Stack = contentstack.Stack(process.env.REACT_APP_STACK_API_KEY||'',process.env.REACT_APP_DELIVERY_TOKEN||"",process.env.REACT_APP_ENVIRONMENT||"");
 
 interface NavLinks{
     link: [{
@@ -25,7 +24,7 @@ const NavBar: React.FC = () => {
         setNavToggle(!navToggle);
     }
     useEffect(() => {
-        const Query = Stack.ContentType('header').Entry(HEADER_ENTRY);
+        const Query = Stack.ContentType('header').Entry(process.env.REACT_APP_HEADER_ENTRY || " ");
         Query
             .toJSON()
             .fetch()

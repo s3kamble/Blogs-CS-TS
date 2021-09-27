@@ -1,10 +1,11 @@
 import  React,{useState,useEffect} from "react";
 import contentstack from "contentstack";
-import{STACK_API_KEY,DELIVERY_TOKEN,ENVIRONMENT, FOOTER_ENTRY} from "../../contentstackConfig";
 import styles from "../Footer/Footer.module.css"
 import { Link } from "react-router-dom";
 
-const Stack = contentstack.Stack(STACK_API_KEY,DELIVERY_TOKEN,ENVIRONMENT);
+// const Stack = contentstack.Stack(STACK_API_KEY,DELIVERY_TOKEN,ENVIRONMENT);
+const Stack = contentstack.Stack(process.env.REACT_APP_STACK_API_KEY||"",process.env.REACT_APP_DELIVERY_TOKEN||"",process.env.REACT_APP_ENVIRONMENT||"");
+
 
 interface FooterData{
     uid:string,
@@ -25,7 +26,7 @@ const Footer : React.FC = () =>{
         footer_links:[{title:"",href:""}],
     }})
    
-    const Query = Stack.ContentType("footer").Entry(FOOTER_ENTRY);
+    const Query = Stack.ContentType("footer").Entry(process.env.REACT_APP_FOOTER_ENTRY || "");
 
     useEffect(()=>{
         Query.fetch()

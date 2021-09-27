@@ -41,7 +41,7 @@
 
 # <i><u>Usage</u></i>
 1. Before starting the app,open the folder in text-editor of your choice.
-2. Rename <b>dummyContentstackConfig.js</b> to <b>contentstackConfig.js</b>
+2. Rename <b>dummy.env</b> to <b>.env</b>
 3. Open the file and enter the required keys,once you have your Contentstack stack ready with required Contentype's and Entries.
 4. Save the file and start the app with the command mentioned above.
 

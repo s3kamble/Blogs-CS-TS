@@ -41,34 +41,34 @@
 
 # <i><u>Usage</u></i>
 1. Before starting the app,open the folder in text-editor of your choice.
-2. Rename <b>dummyContentstack.Config.js</b> to <b>contentstack.Config.js</b>
+2. Rename <b>dummyContentstackConfig.js</b> to <b>contentstackConfig.js</b>
 3. Open the file and enter the required keys,once you have your Contentstack stack ready with required Contentype's and Entries.
 4. Save the file and start the app with the command mentioned above.
 
 # <i><u>App Flow/Functionality</u></i>
 
-1. Home Page
+1. <b>Home Page</b>
  <img src="https://s3kamble.github.io/webpage-rendering-data/Readme_Blog_CS_TS_Data/Home_page_blogs.png" />
 
  - Click on tile(name and image) of the blog to read the blog
  <br>
 
- 2. Blog Page
+ 2. <b>Blog Page</b>
   <img src="https://s3kamble.github.io/webpage-rendering-data/Readme_Blog_CS_TS_Data/Single_blog_page.png" />
  <br>
 
- 3. Related Links
+ 3. <b>Related Links</b>
  <img src="https://s3kamble.github.io/webpage-rendering-data/Readme_Blog_CS_TS_Data/Aside_section_blogs.png" />
  - This section in the blog page ,allows you to click on any of the titles mentioned to read that particular blog
 <br>
 
- 4. Header
+ 4. <b>Header</b>
  <img src="https://s3kamble.github.io/webpage-rendering-data/Readme_Blog_CS_TS_Data/Header-Blogs.png" />
  - Clicking on Header logo,helps you navigate to home page directly
  - Header contains dummy links for "Contact" and "Feedback".
  <br>
 
- 5. Footer
+ 5.<b> Footer</b>
  <img src="https://s3kamble.github.io/webpage-rendering-data/Readme_Blog_CS_TS_Data/Footer_blogs.png" /> 
  - Clicking on Footer logo,helps you navigate to home page directly
  - Footer contains dummy links for "Plan A Trip" and "Image Gallery".These components are yet to be developed.

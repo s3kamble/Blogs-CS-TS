@@ -44,6 +44,7 @@
 2. Rename <b>dummy.env</b> to <b>.env</b>
 3. Open the file and enter the required keys,once you have your Contentstack stack ready with required Contentype's and Entries.
 4. Save the file and start the app with the command mentioned above.
+<br>
 
 # <i><u>App Flow/Functionality</u></i>
 
